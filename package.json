@@ -1,0 +1,17 @@
+{
+  "name": "formationinsee",
+  "version": "1.0.0",
+  "description": "formation javascript dawan",
+  "main": "index.js",
+  "dependencies": {
+    "babel-core": "^6.26.3",
+    "babel-polyfill": "^6.26.0",
+    "jquery": "^3.3.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ALM",
+  "license": "ISC"
+}
