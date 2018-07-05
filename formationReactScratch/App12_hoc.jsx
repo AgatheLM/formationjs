@@ -12,6 +12,9 @@ import React, {Component} from 'react';
 	Au passage elle met a jour le state de MyComponent avec la valeur newData
 	Elle est utilisée pour transmettre des données à MyComponent*/
 	
+	/* La fonction HOC pourrait être ailleurs, on l'importerai en début de la classe myComponent, 
+	et on exporterai de la même manière export default myHOC(MyComponent)*/
+	
 	var myHOC = ComponentH => class extends Component{
 		componentDidMount(){
 				this.setState({data: newData.data
